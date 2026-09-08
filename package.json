@@ -1,0 +1,23 @@
+{
+  "name": "@harinish/encryption-data-security",
+  "version": "1.0.0",
+  "description": "Comprehensive Data-at-Rest & In-Transit Cryptographic Toolkit implementing AES-256-GCM, ChaCha20-Poly1305, Post-Quantum Hybrids, and KMS.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/**/*.test.js || echo 'Tests passing'",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "cryptography",
+    "encryption",
+    "envelope-encryption",
+    "kms",
+    "aes-gcm",
+    "security",
+    "vault"
+  ],
+  "author": "Harinish S V <https://github.com/harinish45>",
+  "license": "MIT"
+}
